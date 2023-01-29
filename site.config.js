@@ -38,18 +38,18 @@ const CONFIG = {
   },
 
   // plugin configuration (optional)
-  googleAnalytics: {
-    enable: false,
-    config: {
-      measurementId: process.env.GOOGLE_MEASUREMENT_ID || ''
-    }
-  },
-  googleSearchConsole: {
-    enable: false,
-    config: {
-      siteVerification: process.env.GOOGLE_SITE_VERIFICATION || ''
-    }
-  },
+  // googleAnalytics: {
+  //   enable: false,
+  //   config: {
+  //     measurementId: process.env.GOOGLE_MEASUREMENT_ID || ''
+  //   }
+  // },
+  // googleSearchConsole: {
+  //   enable: false,
+  //   config: {
+  //     siteVerification: process.env.GOOGLE_SITE_VERIFICATION || ''
+  //   }
+  // },
   utterances: {
     enable: true,
     config: {
